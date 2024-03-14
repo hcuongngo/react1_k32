@@ -9,7 +9,8 @@ function Header() {
       <img src="/imgs/logoicon.png" alt="" />
       <div style={{
         display: 'flex',
-        gap: 30
+        gap: 30,
+        marginTop: 10
       }}>
         <p>Home</p>
         <p>Search</p>
