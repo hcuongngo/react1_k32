@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Intro from './components/Intro'
 import Activities from './components/Activities'
 import StayInTouch from './components/StayInTouch'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -15,6 +13,7 @@ function App() {
       <Intro />
       <Activities />
       <StayInTouch />
+      <Footer />
     </div>
   )
 }
